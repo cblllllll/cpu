@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jan  7 22:16:43 2019
+# Process ID: 14084
+# Current directory: C:/Xilinx/project/myCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8960 C:\Xilinx\project\myCPU\myCPU.xpr
+# Log file: C:/Xilinx/project/myCPU/vivado.log
+# Journal file: C:/Xilinx/project/myCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/project/myCPU/myCPU.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+synth_design -rtl -name rtl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top myCPU [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top mips_sopc [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top myCPU [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top mips_sopc [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property is_global_include true [get_files  C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/mips_sopc.v]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property is_global_include false [get_files  C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/mips_sopc.v]
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/inst_rom.mif
+add_files -fileset sim_1 -norecurse {C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/div.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/addu.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/nixie_tube.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/and0.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/ex_mem.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/ext.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/or32.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/clk_pll.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/mfc0.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/cp0_reg.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/mips_sopc.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/mthi.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/mem_stage.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/mtlo.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/sltu.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/srav.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/wdata_mux.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/id_stage.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/mem_wb.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/defines.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/mfhi.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/mflo.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/srlv.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/pc_reg.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/mtc0.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/inst_rom.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/add.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/if_stage.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/lui.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/mult.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/ex_stage.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/nor32.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/slt.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/xor32.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/operand_mux.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/div_ip.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/sllv.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/if_id.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/myCPU.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/slpc.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/sub.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/reg_data_mux.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/decoder.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/subu.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/id_ex.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/jump_branch.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/branch.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/wcp0_data_mux.v C:/Xilinx/project/myCPU/myCPU.srcs/sources_1/new/regfile.v}
+close_design
+update_compile_order -fileset sim_1
+open_run impl_1
+synth_design -rtl -name rtl_1
+launch_simulation
+open_wave_config C:/Xilinx/project/myCPU/mips_sopc_tb_behav.wcfg
+source mips_sopc_tb.tcl
+reset_run synth_1
+close_sim

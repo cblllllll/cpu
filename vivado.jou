@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jan  9 13:09:11 2019
+# Process ID: 660248
+# Current directory: C:/Xilinx/project/myCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent657804 C:\Xilinx\project\myCPU\myCPU.xpr
+# Log file: C:/Xilinx/project/myCPU/vivado.log
+# Journal file: C:/Xilinx/project/myCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/project/myCPU/myCPU.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_simulation
+open_wave_config C:/Xilinx/project/myCPU/mips_sopc_tb_behav.wcfg
+source mips_sopc_tb.tcl
+save_wave_config {C:/Xilinx/project/myCPU/mips_sopc_tb_behav.wcfg}
+save_wave_config {C:/Xilinx/project/myCPU/mips_sopc_tb_behav.wcfg}
+close_sim

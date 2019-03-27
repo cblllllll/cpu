@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mips_sopc_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_sopc_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="798580000fs"></ZoomStartTime>
+      <ZoomEndTime time="911980001fs"></ZoomEndTime>
+      <Cursor1Time time="804780000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="161"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wave_markers>
+      <marker time="190000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/mips_sopc_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_sopc_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_sopc_tb/mips_sopc0/inst_ram0/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_sopc_tb/mips_sopc0/inst_ram0/spo" type="array">
+      <obj_property name="ElementShortName">spo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spo[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_sopc_tb/mips_sopc0/myCPU0/pc_reg0/branch_flag_i" type="logic">
+      <obj_property name="ElementShortName">branch_flag_i</obj_property>
+      <obj_property name="ObjectShortName">branch_flag_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_sopc_tb/mips_sopc0/myCPU0/pc_reg0/branch_addr_i" type="array">
+      <obj_property name="ElementShortName">branch_addr_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_addr_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group15" type="group">
+      <obj_property name="label">if_id</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/mips_sopc_tb/mips_sopc0/myCPU0/if_id0/pc_i" type="array">
+         <obj_property name="ElementShortName">pc_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_sopc_tb/mips_sopc0/myCPU0/if_id0/inst_i" type="array">
+         <obj_property name="ElementShortName">inst_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">inst_i[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group114" type="group">
+      <obj_property name="label">id_ex</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/mips_sopc_tb/mips_sopc0/myCPU0/id_ex0/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_sopc_tb/mips_sopc0/myCPU0/id_ex0/pc_o" type="array">
+         <obj_property name="ElementShortName">pc_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_sopc_tb/mips_sopc0/myCPU0/id_ex0/inst_o" type="array">
+         <obj_property name="ElementShortName">inst_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">inst_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mips_sopc_tb/mips_sopc0/myCPU0/id_ex0/aluop_o" type="array">
+         <obj_property name="ElementShortName">aluop_o[5:0]</obj_property>
+         <obj_property name="ObjectShortName">aluop_o[5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/mips_sopc_tb/mips_sopc0/timer_int_o" type="logic">
+      <obj_property name="ElementShortName">timer_int_o</obj_property>
+      <obj_property name="ObjectShortName">timer_int_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="group153" type="group">
+      <obj_property name="label">ex_mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group164" type="group">
+      <obj_property name="label">mem_wb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_sopc_tb/mips_sopc0/timer_int_o" type="logic">
+      <obj_property name="ElementShortName">timer_int_o</obj_property>
+      <obj_property name="ObjectShortName">timer_int_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="group125" type="group">
+      <obj_property name="label">tube</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_sopc_tb/mips_sopc0/wreg_data_o" type="array">
+      <obj_property name="ElementShortName">wreg_data_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wreg_data_o[31:0]</obj_property>
+   </wvobject>
+</wave_config>
